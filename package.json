@@ -1,11 +1,12 @@
 {
   "name": "@kitsunetv/transmission",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transmission RPC Client",
   "homepage": "https://github.com/KitsuneTV",
   "license": "GPL-3.0",
   "main": "dist/index.js",
-  "typings": "./src/types.d.ts",
+  "typings": "dist/index.d.ts",
+  "private": false,
   "author": {
     "name": "Rie Takahashi",
     "email": "megumin@megu.dev",

@@ -9,6 +9,7 @@
     "strictNullChecks": false,
     "sourceMap": false,
     "esModuleInterop": true,
+    "declaration": true,
     "moduleResolution": "Node",
     "baseUrl": ".",
     "outDir": "dist"
