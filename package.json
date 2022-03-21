@@ -1,0 +1,37 @@
+{
+  "name": "@kitsunetv/transmission",
+  "version": "1.0.0",
+  "description": "Transmission RPC Client",
+  "homepage": "https://github.com/KitsuneTV",
+  "license": "GPL-3.0",
+  "main": "dist/index.js",
+  "typings": "./src/types.d.ts",
+  "author": {
+    "name": "Rie Takahashi",
+    "email": "megumin@megu.dev",
+    "url": "https://github.com/MeguminSama"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitsunetv/transmission.git"
+  },
+  "keywords": [
+    "transmission",
+    "rpc",
+    "torrent"
+  ],
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --transpile-only src/index.ts"
+  },
+  "dependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "node-fetch": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.6.2"
+  }
+}
